@@ -15,7 +15,7 @@ float srednii_vozrast(struct Person ludi[], int n) {
 }
 
 int main() {
-    struct Person ludi[7] = {
+    struct Person ludi[10] = {
         {17, "Богдан"},
         {17, "Федя"},
         {16, "Тима"},
@@ -23,6 +23,10 @@ int main() {
         {18, "Полшишкин"},
         {17, "Матюха"},
         {176, "Леша"}
+        {16, "Полина"},
+        {17, "Дима"},
+        {16, "Егор"}
+        
         
     };
     float srednii = srednii_vozrast(ludi, 3);
