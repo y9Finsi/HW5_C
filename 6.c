@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// комментарии к коду находятся в файле 6-expl.txt
 
 void abs_array(int *array, int n) {
     int count = 0;
